@@ -1,0 +1,35 @@
+.loginContainer button {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    background: transparent;
+    border: 0;
+    font-size: 0px;
+}
+
+.loginContainer strong img {
+    height: 3.0rem;
+    width: 3.0rem;
+    border-radius: 50%;
+}
+
+.loginContainer strong {
+    display: flex;
+}
+
+.loginContainer strong p {
+    padding: 10px;
+    
+    position: relative;
+    display: flex;
+}
+
+.loginContainer div input {
+    border-radius: 2.5px;
+    height: 58px;
+    width: 252px;
+}
+
+.loginContainer div ::placeholder {
+    
+}

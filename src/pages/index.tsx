@@ -10,6 +10,7 @@ import { ChallengeBox } from './../components/ChallengeBox';
 import styles from '../styles/pages/Home.module.css';
 import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProviader } from '../contexts/ChallengesContext';
+import { Login } from '../components/Login';
 
 
 interface HomeProps {
@@ -21,7 +22,7 @@ interface HomeProps {
 
 export default function Home(props:HomeProps) {
   return (
-    <ChallengesProviader 
+    /*<ChallengesProviader 
       level={props.level} 
       currentExperience={props.currentExperience}
       challengesCompleted={props.challengesCompleted}
@@ -46,7 +47,8 @@ export default function Home(props:HomeProps) {
           </section>
         </CountdownProvider>
       </div>
-    </ChallengesProviader>
+    </ChallengesProviader>*/
+    <Login/>
   );
 }
 
